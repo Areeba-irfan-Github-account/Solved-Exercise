@@ -1,5 +1,5 @@
 {
-  "name": "43.unchanged-magicians",
+  "name": "44.sandwiches",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^20.11.22"
+    "@types/node": "^20.11.24"
   }
 }
