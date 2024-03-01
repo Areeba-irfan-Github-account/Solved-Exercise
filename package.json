@@ -1,5 +1,5 @@
 {
-  "name": "name-cases",
+  "name": "21.person_detail",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^20.11.17"
+  "dependencies": {
+    "@types/node": "^20.11.19"
   }
 }
