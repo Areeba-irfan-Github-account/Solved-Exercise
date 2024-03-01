@@ -1,5 +1,5 @@
 {
-  "name": "45.cars",
+  "name": "personal-message",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@types/node": "^20.11.24"
+  "devDependencies": {
+    "@types/node": "^20.11.17"
   }
 }
