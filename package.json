@@ -1,5 +1,5 @@
 {
-  "name": "42.great-magicians",
+  "name": "43.unchanged-magicians",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^20.11.21"
+    "@types/node": "^20.11.22"
   }
 }
