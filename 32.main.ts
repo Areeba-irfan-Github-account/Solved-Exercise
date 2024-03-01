@@ -1,23 +1,16 @@
-//Task number 31
-//No Users: Add an if test to Exercise 28 to make sure the list of users is not empty.
+//task number # 32
 
-let users :string[] = ["Admin" , "Eric" , "Irfan" , "Bilal"];
+//Checking Usernames: Do the following to create a program that simulates how websites ensure that everyone has a unique user
 
-// if (users.length === 0) {
-//     console.log("we need to find some users")
-// } else {
-//     for (let user of users) {
-//         if (user === "admin"){
-//             console.log("Hello admin, would you like to see the status report?")
-//         } else {
-//             console.log(` Hello ${user} ,  thank you for logging in again `)
-//         }
-//     }
-// }
-//If the list is empty so we should right this code....
+let current_users : string [] = ["Admin" , "Eric" , "Ali" ,"Saad" , "Hamza"]
+let new_users : string [] = ["Admin" , "Eric" , "Bilal" , "Irfan" , "Maaz"]
 
-users =[]
-if (users.length === 0) {
-    console.log("We need to find some users")
+let current_users_lower :string [] = current_users.map(user => user.toLowerCase())
 
-};
+for (let new_user of new_users) {
+    if(current_users_lower.includes (new_user.toLowerCase())) {
+        console.log(`Sorry ${new_user} ,that name is taken`)
+    } else {
+        console.log(`Yes! ${new_user} , You are still in avalible list `)
+    }
+}
